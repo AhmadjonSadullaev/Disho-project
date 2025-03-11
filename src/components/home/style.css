@@ -1,0 +1,50 @@
+.backimage{
+    background-image: url(../../assess/homepage.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.homepage{
+    width: 502px;
+height: 273px;
+top: 322px;
+left: 407px;
+
+display: flex;
+flex-direction: column;
+padding: 50px;
+}
+.homepage button{
+    width: 190px;
+height: 40px;
+border-radius: 50px;
+background-color: aliceblue;
+
+}
+.btn{
+    background: #7EB23D!important;
+
+}
+.image1{
+    display: flex;
+    justify-items: end;
+    padding-top: 200px;
+    padding-left: 300px;
+   
+}
+.btn1{
+    width: 205.7158660888672px;
+height: 52px;
+border-radius: 24px;
+background: #7EB23D;
+color:white;
+}
+.img1{
+    background-image: url(../../assess/organikmilk.jpeg);
+    width: 94;
+height: 109;
+border-radius: 12px;
+
+}
