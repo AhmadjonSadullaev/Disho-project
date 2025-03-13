@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import homeimg from "../../assess/homepage.jpg";
 
+
 export const Continer =styled.div`
 width: 1136px;
 display: flex;
@@ -140,3 +141,54 @@ border-radius: 24px;
 background: #7EB23D;
 color: white;
 `;
+
+export const Order =styled.div`
+display:flex;
+align-items:center;
+flex-direction:column;
+background-color:greenyellow;
+border-radius:30px;
+justify-content: center;
+width: 100%;
+height: 300px;
+top: 1px;
+left: 1px;
+.h1{
+  font-family: Viga;
+font-weight: 400;
+font-size: 52px;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: center;
+width: 795px;
+height: 83px;
+top: 126px;
+left: 620px;
+
+
+}
+p{
+  width: 891px;
+height: 97px;
+top: 212px;
+left: 572px;
+font-family: PT Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.strong{
+  width: 265px;
+height: 33px;
+top: 347px;
+left: 885px;
+background-color:white;
+border-radius: 50px;
+}
+
+
+`;
+

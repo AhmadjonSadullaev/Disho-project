@@ -3,7 +3,10 @@ import NavbarComponent from '../navbar.tsx';
 import FooterComponent from '../footer.tsx';
 import '../home/style.css';
 import img from '../../assess/badge.png';
-import { Boxs, Btn, Continer, Grid, Homediv, Homeimg, Homeshop, Mainbutton, Maincon, Maindv, Pic, Smallbox, Smalldiv, } from './homestyle.ts';
+import { Boxs, Btn, Continer, Grid, Homediv, 
+  Homeimg, Homeshop, Mainbutton, Maincon, 
+  Maindv, Order, Pic, Smallbox,
+   Smalldiv, } from './homestyle.ts';
 import photo1 from '../../assess/1.png';
 import photo2 from '../../assess/2.png';
 import photo3 from '../../assess/3.png';
@@ -67,6 +70,8 @@ const HomeComponent = () => {
                 
                 
           </Homeimg>
+
+          
             <Maincon>
             <Continer>
                 <div style={{textAlign:'center'}}>
@@ -292,6 +297,17 @@ const HomeComponent = () => {
 
 
        </div>
+         <Order>
+          <div style={{textAlign:"center"}}>
+          <h1>Order Home Delivery of Groceries</h1>
+             <p>Adipiscing elit ut aliquam purus sit amet luctus. Neque egestas congue quisque egestas diam in. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Leo a diam sollicitudin tempor</p>
+             <strong>+1-202-555-0168</strong>
+   
+          </div>
+         
+           
+         </Order>
+
        <div>
           <FooterComponent/>
        </div>
