@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Display, Footer } from './style.ts';
 import disho from "../assess/Logo.png";
@@ -7,7 +8,7 @@ import whats from "../assess/footer/whatsapp.png";
 import youtube from "../assess/footer/youtube.png";
 import linkdin from "../assess/footer/linkedin.png";
 import map from "../assess/footer/map.png";
-import headset from "../assess/footer/headset.png"
+import headset from "../assess/footer/headset.png";
 
 const FooterComponent = () => {
   return (
@@ -53,7 +54,7 @@ const FooterComponent = () => {
                     +1-202-555-0168</p>
                   </div>
 
-
+  
                 </div>
                 <div>
                     <h2>Useful Links</h2>

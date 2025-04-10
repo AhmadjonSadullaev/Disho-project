@@ -3,7 +3,7 @@ import * as React from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 
 
 const MuiCom = () => {
@@ -12,7 +12,11 @@ const MuiCom = () => {
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 2000);
-    return () => clearTimeout(timeout);
+
+     const [value, setValue] = React.useState('1');
+    
+      const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+        setValue(newValue);
   });
   return (
     <div>
@@ -21,6 +25,8 @@ const MuiCom = () => {
         <ShoppingCartIcon />
       </IconButton>
     </Tooltip>
+
+
     </div>
   )
 }

@@ -31,6 +31,8 @@ import herbsAndSpices, { Herb } from '../mock/spices.ts';
 
 
 
+
+
 const HomeComponent = () => {
   const [value, setValue] = React.useState('1');
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -70,7 +72,7 @@ const HomeComponent = () => {
                 
                 
           </Homeimg>
-
+           
           
             <Maincon>
             <Continer>
@@ -129,7 +131,7 @@ const HomeComponent = () => {
                          </div>
                         <Grid>
                          <Pic>
-                          <img sizes='' src={qul} alt="img" />
+                          <img  src={qul} alt="img" height={230} width={230} />
                             <p style={{textAlign:"center"}}>Fresh Strawberry</p>
                              <h2 style={{textAlign:"center"}}><span style={{color:"red"}}>$8.99</span><del>$12.99</del></h2>
                          </Pic>
@@ -301,7 +303,7 @@ const HomeComponent = () => {
           <div style={{textAlign:"center"}}>
           <h1>Order Home Delivery of Groceries</h1>
              <p>Adipiscing elit ut aliquam purus sit amet luctus. Neque egestas congue quisque egestas diam in. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Leo a diam sollicitudin tempor</p>
-             <strong>+1-202-555-0168</strong>
+             <button className='button1'>+1-202-555-0168</button>
    
           </div>
          

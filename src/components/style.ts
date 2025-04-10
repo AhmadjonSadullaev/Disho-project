@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
   width: 100%;
   height: 29px;
@@ -24,8 +25,9 @@ border-color: #D2D2D2;
 export const Footer =styled.div`
  height:460px;
  width:100%;
- background:rgb(211, 182, 182);
+ background: white;
 border: 1px solid black;
+box-shadow: 0px 2px 12px 0px #B7BDC480;
 `;
 
 export const Display = styled.div`
@@ -37,3 +39,7 @@ export const Display = styled.div`
 
   
 `;
+export const Navlick = styled.link`
+  text-decoration:none;
+  color:black;
+`

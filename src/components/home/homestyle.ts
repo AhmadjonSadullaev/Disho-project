@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import homeimg from "../../assess/homepage.jpg";
-
+import image from "../../assess/order1.jpeg"
 
 export const Continer =styled.div`
 width: 1136px;
@@ -143,10 +143,13 @@ color: white;
 `;
 
 export const Order =styled.div`
+background-image:url(${image});
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
 display:flex;
 align-items:center;
 flex-direction:column;
-background-color:greenyellow;
 border-radius:30px;
 justify-content: center;
 width: 100%;
@@ -180,15 +183,14 @@ letter-spacing: 0px;
 text-align: center;
 
 }
-.strong{
-  width: 265px;
-height: 33px;
-top: 347px;
-left: 885px;
+.button1{
+  width: 369px;
+height: 77px;
+top: 325px;
+font-size:25px;
+left: 833px;
 background-color:white;
-border-radius: 50px;
+border-radius:50px;
 }
 
-
 `;
-
