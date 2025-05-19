@@ -18,25 +18,25 @@ const NavbarComponent = () => {
                <img src={right} alt="" />
              </div>
          </Container>
-        <Containers>
+        <Containers className='navbar'>
            <div>
                <img src={logo} alt="" />
            </div>
            <div style={{display:"flex", gap:"20px"}}>
    
-            <Link to={"/"}  style={{textDecoration:"none",color:"black"}}>
+            <Link to={"/home"}  style={{textDecoration:"none",color:"black"}}>
               <p>Home</p>
             </Link>
 
    
             
-            <Link to= {"/shop"} style={{textDecoration:"none",color:"black"}}>
+            <Link to= {"/shop"} style={{textDecoration:"none",color:"black"}} >
             <p>Shop</p>
             </Link>
-
-            <Link to= {"/page"} style={{textDecoration:"none",color:"black"}}>
-              <p>Pages</p>
-              </Link>
+            <Link to={"/pages"} style={{textDecoration:"none",color:"black"}} >
+              <p>Page</p>
+            </Link>
+          
               <Link to= {"/blog"} style={{textDecoration:"none",color:"black"}}>
               <p>Blog</p>
               </Link>
@@ -47,11 +47,13 @@ const NavbarComponent = () => {
            <div style={{display:"flex", alignItems:"center", gap:"10px"}}>
                 <Asynchronous/>
                 
-                   <Link to ={"/login"}>
+                   <Link to ={"/"}>
                 <AccountCircleIcon fontSize="large"/>
                 </Link>
-           
+               <Link to={"/shopingcard"}>
                <AddShoppingCartIcon fontSize="large" color='success'/>
+               </Link>
+               
            </div>
 
         </Containers>

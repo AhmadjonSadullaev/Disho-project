@@ -28,6 +28,7 @@ import img1 from "../../assess/footer/img2.jpeg";
 import mockFruits, { Fruit } from '../mock/fruit.ts';
 import cerealAndBakery, { Product } from '../mock/cereal.ts';
 import herbsAndSpices, { Herb } from '../mock/spices.ts';
+import { Link } from 'react-router-dom';
 
 
 
@@ -55,8 +56,13 @@ const HomeComponent = () => {
                    <h1 style={{fontWeight:"400", fontSize:"52px",}}>Check out best Weekly Prices</h1>
                    <p>Pelleentes  Lorem . Proin hendreit ,velit vitae vehicula vulputate</p>
                    <div style={{gap:"20px"}}>
-                      <button className='btn'>View sale</button>
-                      <button>Shop all</button>
+                    <Link to={"/Fruitsdata"}>
+                       <button style={{background:"green",color:"white"}}>View Sale</button>
+                    </Link>
+                    <Link to={"/shop"}>
+                    <button>Shop all</button>
+                    </Link>
+                     
                    </div>
                   </div> 
                   <div >

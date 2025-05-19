@@ -23,6 +23,7 @@
     "primereact": "^10.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-kakao-maps-sdk": "^1.1.27",
     "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
@@ -56,6 +57,7 @@
     ]
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "kakao.maps.d.ts": "^0.1.40"
   }
 }

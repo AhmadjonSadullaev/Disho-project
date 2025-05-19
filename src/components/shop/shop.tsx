@@ -104,8 +104,9 @@ const ShopComponent = () => {
      </div>
       
 
-  
- 
+
+
+   
    
     {active === "fruits" && <Fruitsdata/> }
     {active === "snacks" && <SnackData/> }
@@ -117,7 +118,7 @@ const ShopComponent = () => {
     {active === "farm" && <FarmData/> }
     {active === "own" && <OwmData/> }
      
-
+  
 
   
    

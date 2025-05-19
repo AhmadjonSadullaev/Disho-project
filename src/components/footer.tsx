@@ -9,6 +9,7 @@ import youtube from "../assess/footer/youtube.png";
 import linkdin from "../assess/footer/linkedin.png";
 import map from "../assess/footer/map.png";
 import headset from "../assess/footer/headset.png";
+import { Link } from 'react-router-dom';
 
 const FooterComponent = () => {
   return (
@@ -22,11 +23,22 @@ const FooterComponent = () => {
                   }}
                   >Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus</p>
                   <div style={{display:"flex" ,gap:"30px"}}>
+                    <a href="https://www.facebook.com/?locale=ko_KR">
                      <img src={face} alt="img" />
+                     </a>
+                     
+                     <a href="https://www.instagram.com">
                      <img src={insta} alt="img" />
+                     </a>
+                     <a href="https://web.whatsapp.com">
                      <img src={whats} alt="img" />
+                     </a>
+                     <a href="https://www.youtube.com">
                      <img src={youtube} alt="img" />
+                     </a>
+                     <a href="https://www.linkedin.com/">
                      <img src={linkdin} alt="" />
+                     </a>
                   </div>
                   <div style={{display:"flex",gap:"10px"}}>
                      <p style={{border:"7px solid white",
@@ -58,7 +70,10 @@ const FooterComponent = () => {
                 </div>
                 <div>
                     <h2>Useful Links</h2>
+                    <Link to={"/about"} style={{textDecoration:"none",color:'black'}}>
                     <p>About US</p>
+                    </Link>
+                   
                     <p>Contact US</p>
                     <p>Shop By Categorie</p>
                     <p>From The Blog</p>

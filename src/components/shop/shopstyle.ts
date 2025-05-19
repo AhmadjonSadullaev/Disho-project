@@ -48,8 +48,9 @@ export const Mainshop =styled.div`
   display:grid;
   grid-template-areas:" a a a a";
   gap:10px;
-  padding:40px
-  
+  align-items: center;
+  justify-content:center;
+  padding: 20px;
 `
 ;
 export const Smallshop =styled.div`

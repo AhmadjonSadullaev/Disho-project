@@ -11,17 +11,17 @@ export const Container = styled.div`
 `;
 export const Containers = styled.div`
    width: 100%;
-height: 110px;
+height: 100px;
 display:flex;
 align-items: center;
 justify-content: space-around;
 border-width: 0px, 0px, 0px, 0px;
 border-color: #D2D2D2;
-
-
-
+background-color:white;
+box-shadow: 0px 2px 12px 0px #B7BDC480;
 
 `;
+
 export const Footer =styled.div`
  height:460px;
  width:100%;
@@ -42,4 +42,8 @@ export const Display = styled.div`
 export const Navlick = styled.link`
   text-decoration:none;
   color:black;
+  :hover{
+    background-color: green;
+    color: white;
+  }
 `

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Mainshop, Smallshop } from '../shopstyle.ts';
 import snacksAndCannedGoods, { Product } from '../../mock/snaks.ts';
+import AddShoppingCartSharpIcon from '@mui/icons-material/AddShoppingCartSharp';
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 
 const SnackData = () => {
   return (
@@ -20,6 +22,13 @@ const SnackData = () => {
                            </h2>
         
                           </div>
+                          <div style={{display:"flex",justifyContent:"space-around"}}>
+                     <AddShoppingCartSharpIcon/>
+                     
+                     <RemoveRedEyeOutlinedIcon/>
+                     
+                     
+                     </div>
                           
                            
                           </Smallshop>

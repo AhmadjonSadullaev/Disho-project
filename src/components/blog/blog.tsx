@@ -13,6 +13,7 @@ import Seasonal from './components/seasonal.tsx';
 import market from '../../assess/market.jpg';
 import blog1 from '../../assess/blog1.jpg';
 import market11 from '../../assess/market11.jpeg'
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const [active,  setActive] = useState("all");
@@ -98,10 +99,9 @@ const Blog = () => {
                           
                           
                        </div>
-                       <Button>
-                        
-                           Add to Cart
-                       </Button>
+                       <Link to={"/shop"}>
+                       <Button> Add to Cart </Button>
+                       </Link>
                </Blogdivs>
                   
 

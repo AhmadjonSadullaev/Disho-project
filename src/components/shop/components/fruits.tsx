@@ -1,11 +1,14 @@
 import React from 'react';
-import { Mainshop, Shops, Smallshop } from '../shopstyle.ts';
+import { Mainshop,  Smallshop } from '../shopstyle.ts';
 import fruitsAndVegetables, { Product } from '../../mock/fruitvag.ts';
+import AddShoppingCartSharpIcon from '@mui/icons-material/AddShoppingCartSharp';
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
+import { Link } from 'react-router-dom';
 
 const Fruitsdata = () => {
   return (
     <div>
-      <Shops>
+      
 
 <Mainshop>
 
@@ -21,17 +24,23 @@ const Fruitsdata = () => {
                      <h2>$
                        {Product.pricePerKg}
                       </h2>
-   
                      </div>
+                     <div style={{display:"flex",justifyContent:"space-around"}}>
+                     <AddShoppingCartSharpIcon/>
+                     <Link to={"/view"}>
+                     <RemoveRedEyeOutlinedIcon/>
+                     </Link>
+                 
                      
-                      
+                     
+                     </div>
                      </Smallshop>
                    ) )}
                  
 </Mainshop>
-</Shops>
+
     </div>
   )
 }
 
-export default Fruitsdata
+export default Fruitsdata;

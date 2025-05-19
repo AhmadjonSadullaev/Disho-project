@@ -20,7 +20,7 @@ export default function Asynchronous() {
   const [open, setOpen] = React.useState(false);
   const [options, setOptions] = React.useState<readonly Film[]>([]);
   const [loading, setLoading] = React.useState(false);
-
+  
   const handleOpen = () => {
     setOpen(true);
     (async () => {
